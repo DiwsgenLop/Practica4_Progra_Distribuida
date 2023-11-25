@@ -1,0 +1,10 @@
+interface FileInterface{
+    short contarLineas(in string nombrearchivo);
+    short cuentavocales(in string nombrearchivo);
+    void escribe(in string nombreArchivoDestino);
+    void imprimir();
+    void respaldar(in string nombrearchivo);
+    void copiar(in string nombrearchivodestino);
+    void renombrar(in string nombrearchivo); 
+    void eliminar(in string nombrearchivo);
+};
